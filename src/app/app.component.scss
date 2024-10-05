@@ -1,0 +1,18 @@
+:host {
+    .activeHostButton {
+        color: white;
+        background-color: green;
+    }
+}
+
+#navItems {
+    button{
+        padding: 2em 1.7em;
+        text-transform: capitalize;
+    }
+    button:hover {
+        color: white;
+        background-color: green;
+        text-decoration: underline;
+    }
+}
