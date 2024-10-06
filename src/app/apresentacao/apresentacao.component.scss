@@ -1,0 +1,52 @@
+:host {
+    section {
+        margin-top: 2em;
+    }
+    img {
+        height: 90vh;
+        width: 100%;
+    }
+    
+    .marquee-section {
+        margin-top: 1vw;
+        margin-bottom: 1vw;
+        position: relative;
+        min-height: 82px;
+    }
+    
+    .marquee-section,
+    .marquee-section * {
+        overflow: hidden;
+    }
+    
+    .marquee {
+        white-space: nowrap;
+    }
+    
+    .marquee-div {
+        position: absolute;
+        animation: move-right-to-left linear 60s infinite;
+    }
+    
+    .passagem {
+        font-size: 1.2vw;
+        font-family: 'Libre Baskerville', serif;
+        text-decoration: underline;
+    }
+    
+    @keyframes move-right-to-left {
+        from {
+            transform: translateX(0);
+        }
+    
+        to {
+            transform: translateX(-50%);
+        }
+    }
+    
+    @media (max-width: 914px) {
+        img {
+            height: auto;
+        }
+    }
+}
