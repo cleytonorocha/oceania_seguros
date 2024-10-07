@@ -1,0 +1,95 @@
+:host {
+    section {
+        width: 100%;
+        overflow: hidden;
+    }
+
+    p.lead,
+    ul li p {
+        font-size: 1rem;
+        padding: 0 20px;
+    }
+
+    svg {
+        width: 100%;
+        height: auto;
+        display: block;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+    }
+
+    #plans {
+        background-color: #13909dff;
+    }
+
+    #sidePlan {
+        background: rgb(14, 214, 158);
+        background: -moz-linear-gradient(103deg, rgba(14, 214, 158, 1) 0%, rgba(19, 144, 157, 1) 100%);
+        background: -webkit-linear-gradient(103deg, rgba(14, 214, 158, 1) 0%, rgba(19, 144, 157, 1) 100%);
+        background: linear-gradient(103deg, rgba(14, 214, 158, 1) 0%, rgba(19, 144, 157, 1) 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#0ed69e", endColorstr="#13909d", GradientType=1);
+        height: 100%;
+        padding: 20px;
+        border-radius: 10px 0 0 10px;
+    }
+
+    #wave1 {
+        animation: movewave1 10s ease-in-out infinite alternate;
+    }
+
+    #wave2 {
+        animation: movewave2 8s ease-in-out infinite alternate-reverse;
+    }
+
+    #wave3 {
+        animation: movewave3 6s ease-in-out infinite alternate;
+    }
+
+    .hoverable-div {
+        padding: 20px;
+        background-color: #13909d;
+        border-radius: 10px;
+        transition: background-color 0.3s, transform 0.3s;
+    }
+
+    .hover-effect {
+        transform: scale(1.05);
+    }
+
+    .logos {
+        height: 200px;
+        width: 200px;
+        object-fit: contain;
+    }
+
+    @keyframes movewave1 {
+        0% {
+            transform: translateX(0) translateY(0);
+        }
+
+        100% {
+            transform: translateX(-50px) translateY(10px);
+        }
+    }
+
+    @keyframes movewave2 {
+        0% {
+            transform: translateX(0) translateY(0);
+        }
+
+        100% {
+            transform: translateX(-30px) translateY(-20px);
+        }
+    }
+
+    @keyframes movewave3 {
+        0% {
+            transform: translateX(0) translateY(0);
+        }
+
+        100% {
+            transform: translateX(-40px) translateY(15px);
+        }
+    }
+}
