@@ -1,0 +1,47 @@
+<section class="container-fluid my-lg-5 my-3">
+  <div class="row justify-content-center">
+    <div class="col-md-11">
+      <div class="row shadow-lg rounded-lg overflow-hidden">
+
+        <div class="col-md-5 bg-info text-white p-5 animate__animated animate__fadeInLeft">
+          <h3 class="mb-4"><i class="fas fa-handshake fa-lg"></i> Consulte Corretora</h3>
+          <p>Consulte qual é o melhor benefício para sua <strong>EMPRESA</strong> ou <strong>PARA VOCÊ</strong>. Nossa
+            cesta de serviços é composta por:</p>
+
+          <ul class="list-unstyled my-5">
+            @for (benefit of benefits; track $index) {
+              <li class="mb-3"><i class="fas fa-check-circle fa-lg me-3"></i>{{benefit}}</li>
+            }
+          </ul>
+
+          <div class="mt-4 mb-5">
+            <h3 class="mb-3"><i class="fas fa-phone-alt fa-lg mb-4"></i> Contatos</h3>
+            <p><i class="fas fa-phone fa me-3"></i> Telefone: (31) 9999-9999</p>
+            <p><i class="fas fa-envelope fa me-3"></i> E-mail: contato&#64;consultecorretora.com.br</p>
+            <p><i class="fab fa-whatsapp fa me-3"></i> WhatsApp: <a href="https://wa.me/553199011452"
+                class="text-white">+55 (31) 99901-1452</a></p>
+          </div>
+
+          <div class="mt-4">
+            <h3 class="mb-3"><i class="fas fa-map-marker-alt fa-lg me-4"></i> Endereço</h3>
+            <p>Rua Exemplo, 123 - Centro<br>São Paulo, SP - 01000-000</p>
+          </div>
+
+          <a href="#" class="btn btn-light mt-4 btn-lg">
+            <i class="fas fa-search"></i> Consultar
+          </a>
+        </div>
+
+        <div class="col-md-7 bg-white p-5 animate__animated animate__fadeInRight">
+          @for (info of infos; track $index) {
+            <div class="mb-5">
+              <i [classList]="info.icon"></i>
+              <h4><i [classList]="info.subIcon"></i>{{info.title}}</h4>
+              <p><i class="fas fa-quote-left me-2"></i>{{info.description}}</p>
+            </div>
+          }
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

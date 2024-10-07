@@ -11,7 +11,7 @@
         margin-top: 1vw;
         margin-bottom: 1vw;
         position: relative;
-        min-height: 82px;
+        min-height: 30px;
     }
     
     .marquee-section,
@@ -44,7 +44,7 @@
         }
     }
     
-    @media (max-width: 914px) {
+    @media (max-width: 1250px) {
         img {
             height: auto;
         }
