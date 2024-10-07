@@ -38,7 +38,6 @@
         from {
             transform: translateX(0);
         }
-    
         to {
             transform: translateX(-50%);
         }
@@ -47,6 +46,14 @@
     @media (max-width: 1250px) {
         img {
             height: auto;
+        }
+    }
+    @media (min-width: 2100px) {
+        .marquee-section {
+            min-height: 4em;
+        }
+        .passagem {
+            font-size: 3em;
         }
     }
 }
