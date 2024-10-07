@@ -1,14 +1,15 @@
-import { NgFor } from '@angular/common';
+import { NgClass, NgFor } from '@angular/common';
 import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-cards',
   standalone: true,
-  imports: [NgFor],
+  imports: [NgFor, NgClass],
   templateUrl: './cards.component.html',
   styleUrl: './cards.component.scss'
 })
 export class CardsComponent {
+  hoveredIndex: number | null = null;
 
    benefits: any[] = [
       "Plano de Saúde",
@@ -22,7 +23,7 @@ export class CardsComponent {
     {
       icon: "fas fa-house-user fa-3x text-info mb-3",
       subIcon: "fas fa-clipboard-list fa-sm me-2",
-      title: "Sobre a Consulte",
+      title: "Sobre a Consulta",
       description: "Faça aos outros o que gostaria que fizessem à você."
     },
     {

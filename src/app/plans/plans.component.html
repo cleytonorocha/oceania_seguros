@@ -12,8 +12,8 @@
     </svg>
     <div class="row py-5" id="plans">
         <div class="d-flex flex-md-row flex-column align-items-center justify-content-center py-5 ">
-            <div class="h-100 w-100 my-5 py-5 ms-md-5">
-                <div class="d-flex flex-column align-items-center justify-content-center text-white h-100 w-100 border border-1  shadow"
+            <div class="h-100 w-100 my-5 py-5 ms-md-5 ">
+                <div class="d-flex flex-column align-items-center justify-content-center text-white h-100 w-100 border border-1 animate__animated animate__fadeInLeft shadow"
                     id="sidePlan">
                     <h2 class="text-center mb-4 display-4 fw-semibold fst-italic text-decoration-underline">Explore Nossos Planos</h2>
                     <p class="lead text-center mb-5 px-4 fs-5">Encontre a solução perfeita para suas necessidades de saúde e
@@ -55,7 +55,7 @@
                 </div>
             </div>
             <div
-                class="container d-flex flex-wrap justify-content-around rounded-end border border-1  my-5 py-5 me-5 shadow">
+                class="container d-flex flex-wrap justify-content-around rounded-end border border-1 animate__animated animate__fadeInRight my-5 py-5 me-5 shadow">
                 @for (item of imageList; track $index) {
                 <div class="d-flex flex-column align-items-center my-lg-5 m-3 text-white"
                     (mouseover)="hoveredIndex = $index" (mouseleave)="hoveredIndex = null"

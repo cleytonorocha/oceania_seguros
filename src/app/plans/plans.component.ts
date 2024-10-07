@@ -1,14 +1,12 @@
 import { NgClass } from '@angular/common';
 import { Component } from '@angular/core';
-import { CarouselModule } from 'ngx-owl-carousel-o';
 
 @Component({
   selector: 'app-plans',
   standalone: true,
   imports: [
-    NgClass,
-    CarouselModule]
-  ,
+    NgClass
+  ],
   templateUrl: './plans.component.html',
   styleUrl: './plans.component.scss'
 })
