@@ -91,12 +91,6 @@ export class PlansComponent {
       link: ''
     },
     {
-      title: "Golden Cross",
-      imagePath: "assets/logos/goldencross.jpg",
-      alt: "Logo da Golden Cross",
-      link: ''
-    },
-    {
       title: "Amil",
       imagePath: "assets/logos/amil.jpg",
       alt: "Logo da Amil",
