@@ -1,0 +1,221 @@
+<section class="history-section py-5 text-white">
+    <div class="container">
+        <div class="row align-items-center mb-5">
+            <div class="col-12 text-center">
+                <h3 class="display-2">
+                    A AMIL
+                </h3>
+                <p>
+                    Na nossa instituição, compreendemos que a saúde é um dos pilares mais importantes da vida. É por
+                    isso que disponibilizamos uma variedade de planos médicos e odontológicos, elaborados para atender a
+                    todas as necessidades da sua família ou da sua empresa.
+                </p>
+
+                <p>
+                    Nossos planos médicos são pensados para garantir acesso a uma rede ampla e de qualidade, com
+                    profissionais altamente capacitados e renomados nas mais diversas especialidades. Com nossos
+                    serviços, você e seus entes queridos podem contar com consultas, exames, internações e tratamentos,
+                    sempre com a tranquilidade de saber que estão em boas mãos. Além disso, oferecemos atendimento de
+                    urgência e emergência, garantindo que você tenha suporte sempre que precisar.
+                </p>
+            </div>
+            <hr class="my-4">
+            <div class="col-12 d-flex flex-column justify-content-center text-center">
+                <img src="assets/amil/image3.jpg" alt="Imagem de saúde" class="img-fluid my-4">
+                <hr class="my-4">
+            </div>
+            <div class="row d-flex justify-content-center">
+                <div class="col-lg-6">
+                    <h3 class="mb-4">Programas presenciais</h3>
+                    <p>Os atendimentos dos programas abaixo são realizados em nossas unidades ambulatoriais.</p>
+                    <div class="d-flex flex-wrap">
+                        <div class="card mb-3 shadow cardBeneficios text-white hoverable-div"
+                            (mouseover)="hoveredIndex = 0" (mouseleave)="hoveredIndex = null"
+                            [ngClass]="{'hover-effect': hoveredIndex === 0}">
+                            <div class="card-body d-flex align-items-center">
+                                <i class="fas fa-child fa-2x me-3"></i>
+                                <div>
+                                    <h5 class="card-title fw-bold fs-4">Programa Obesidade Infantil</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card mb-3 shadow cardBeneficios text-white hoverable-div"
+                            (mouseover)="hoveredIndex = 1" (mouseleave)="hoveredIndex = null"
+                            [ngClass]="{'hover-effect': hoveredIndex === 1}">
+                            <div class="card-body d-flex align-items-center">
+                                <i class="fas fa-heartbeat fa-2x me-3"></i>
+                                <div>
+                                    <h5 class="card-title fw-bold fs-4">Programa Reabilitação Cardiopulmonar</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card mb-3 shadow cardBeneficios text-white hoverable-div"
+                            (mouseover)="hoveredIndex = 2" (mouseleave)="hoveredIndex = null"
+                            [ngClass]="{'hover-effect': hoveredIndex === 2}">
+                            <div class="card-body d-flex align-items-center">
+                                <i class="fas fa-baby-carriage fa-2x me-3"></i>
+                                <div>
+                                    <h5 class="card-title fw-bold fs-4">Programa de Planejamento Reprodutivo</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card mb-3 shadow cardBeneficios text-white hoverable-div"
+                            (mouseover)="hoveredIndex = 3" (mouseleave)="hoveredIndex = null"
+                            [ngClass]="{'hover-effect': hoveredIndex === 3}">
+                            <div class="card-body d-flex align-items-center">
+                                <i class="fas fa-user-md fa-2x me-3"></i>
+                                <div>
+                                    <h5 class="card-title fw-bold fs-4">Programa Unidade Postural</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <h3 class="mb-4">Programas híbridos</h3>
+                    <p>Os programas abaixo são oferecidos na modalidade híbrida.</p>
+                    <div class="d-flex flex-wrap">
+                        <div class="card mb-3 shadow cardBeneficios text-white hoverable-div"
+                            (mouseover)="hoveredIndex = 4" (mouseleave)="hoveredIndex = null"
+                            [ngClass]="{'hover-effect': hoveredIndex === 4}">
+                            <div class="card-body d-flex align-items-center">
+                                <i class="fas fa-brain fa-2x me-3"></i>
+                                <div>
+                                    <h5 class="card-title fw-bold fs-4">Programa de Saúde Mental</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card mb-3 shadow cardBeneficios text-white hoverable-div"
+                            (mouseover)="hoveredIndex = 5" (mouseleave)="hoveredIndex = null"
+                            [ngClass]="{'hover-effect': hoveredIndex === 5}">
+                            <div class="card-body d-flex align-items-center">
+                                <i class="fas fa-smoking fa-2x me-3"></i>
+                                <div>
+                                    <h5 class="card-title fw-bold fs-4">Programa Controle do Tabagismo</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card mb-3 shadow cardBeneficios text-white hoverable-div"
+                            (mouseover)="hoveredIndex = 6" (mouseleave)="hoveredIndex = null"
+                            [ngClass]="{'hover-effect': hoveredIndex === 6}">
+                            <div class="card-body d-flex align-items-center">
+                                <i class="fas fa-ribbon fa-2x me-3"></i>
+                                <div>
+                                    <h5 class="card-title fw-bold fs-4">Linha de Cuidado Câncer de Mama</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card mb-3 shadow cardBeneficios text-white hoverable-div"
+                            (mouseover)="hoveredIndex = 7" (mouseleave)="hoveredIndex = null"
+                            [ngClass]="{'hover-effect': hoveredIndex === 7}">
+                            <div class="card-body d-flex align-items-center">
+                                <i class="fas fa-puzzle-piece fa-2x me-3"></i>
+                                <div>
+                                    <h5 class="card-title fw-bold fs-4">Linha de Cuidado TEA</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card mb-3 shadow cardBeneficios text-white hoverable-div"
+                            (mouseover)="hoveredIndex = 8" (mouseleave)="hoveredIndex = null"
+                            [ngClass]="{'hover-effect': hoveredIndex === 8}">
+                            <div class="card-body d-flex align-items-center">
+                                <i class="fas fa-weight fa-2x me-3"></i>
+                                <div>
+                                    <h5 class="card-title fw-bold fs-4">Programa Emagrecimento Clínico</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <h3 class="mb-4">Programas virtuais</h3>
+                    <p>Os programas abaixo são realizados de maneira totalmente remota.</p>
+                    <div class="d-flex flex-wrap">
+                        <div class="card mb-3 shadow cardBeneficios text-white hoverable-div"
+                            (mouseover)="hoveredIndex = 9" (mouseleave)="hoveredIndex = null"
+                            [ngClass]="{'hover-effect': hoveredIndex === 9}">
+                            <div class="card-body d-flex align-items-center">
+                                <i class="fas fa-hands-helping fa-2x me-3"></i>
+                                <div>
+                                    <h5 class="card-title fw-bold fs-4">Programa Primeiros Cuidados</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card mb-3 shadow cardBeneficios text-white hoverable-div"
+                            (mouseover)="hoveredIndex = 10" (mouseleave)="hoveredIndex = null"
+                            [ngClass]="{'hover-effect': hoveredIndex === 10}">
+                            <div class="card-body d-flex align-items-center">
+                                <i class="fas fa-heart fa-2x me-3"></i>
+                                <div>
+                                    <h5 class="card-title fw-bold fs-4">Programa Anticoagulante Seguro</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="p-2 bg-white rounded shadow mx-auto">
+                            <img class="img-fluid" src="assets/amil/image4.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <h3 class="mb-4">Serviços especiais</h3>
+                    <p>Serviços adicionais de saúde disponíveis para os beneficiários.</p>
+                    <div class="d-flex flex-wrap">
+                        <div class="card mb-3 shadow cardBeneficios text-white hoverable-div"
+                            (mouseover)="hoveredIndex = 11" (mouseleave)="hoveredIndex = null"
+                            [ngClass]="{'hover-effect': hoveredIndex === 11}">
+                            <div class="card-body d-flex align-items-center">
+                                <i class="fas fa-clinic-medical fa-2x me-3"></i>
+                                <div>
+                                    <h5 class="card-title fw-bold fs-4">Unidade Móvel de Emergência (UME)</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card mb-3 shadow cardBeneficios text-white hoverable-div"
+                            (mouseover)="hoveredIndex = 12" (mouseleave)="hoveredIndex = null"
+                            [ngClass]="{'hover-effect': hoveredIndex === 12}">
+                            <div class="card-body d-flex align-items-center">
+                                <i class="fas fa-band-aid fa-2x me-3"></i>
+                                <div>
+                                    <h5 class="card-title fw-bold fs-4">Ambulatório de Feridas</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card mb-3 shadow cardBeneficios text-white hoverable-div"
+                            (mouseover)="hoveredIndex = 13" (mouseleave)="hoveredIndex = null"
+                            [ngClass]="{'hover-effect': hoveredIndex === 13}">
+                            <div class="card-body d-flex align-items-center">
+                                <i class="fas fa-file-medical-alt fa-2x me-3"></i>
+                                <div>
+                                    <h5 class="card-title fw-bold fs-4">Renovação de Receita, Guia e Laudo</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card mb-3 shadow cardBeneficios text-white hoverable-div"
+                            (mouseover)="hoveredIndex = 14" (mouseleave)="hoveredIndex = null"
+                            [ngClass]="{'hover-effect': hoveredIndex === 14}">
+                            <div class="card-body d-flex align-items-center">
+                                <i class="fas fa-sign-out-alt fa-2x me-3"></i>
+                                <div>
+                                    <h5 class="card-title fw-bold fs-4">Alta Segura</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card mb-3 shadow cardBeneficios text-white hoverable-div"
+                            (mouseover)="hoveredIndex = 15" (mouseleave)="hoveredIndex = null"
+                            [ngClass]="{'hover-effect': hoveredIndex === 15}">
+                            <div class="card-body d-flex align-items-center">
+                                <i class="fas fa-wheelchair fa-2x me-3"></i>
+                                <div>
+                                    <h5 class="card-title fw-bold fs-4">Centro de Reabilitação</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- <a href="https://br.freepik.com/fotos-gratis/retrato-de-familia-feliz-casamento-interracial-com-um-bebe_8049684.htm#page=3&query=familia%20moderna&position=1&from_view=keyword&track=ais_hybrid&uuid=1bfd450f-53bd-4a07-ba79-2b9f6d0f4a63">Imagem de master1305</a> no Freepik -->

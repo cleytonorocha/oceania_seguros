@@ -14,7 +14,7 @@ export const planosSaude: { [key: string]: PlanosSaude } = {
     name: "You Saúde",
     logo: "assets/logos/yousaude.jpg",
     logoAlt: "Logo You Saúde",
-    description: "Cobertura completa com foco no bem-estar e qualidade de vida.",
+    description: "Contratar um plano de saúde nunca foi tão fácil",
     images: [
       "assets/images/yousaude-plan-1.jpg",
       "assets/images/yousaude-plan-2.jpg"
@@ -36,7 +36,7 @@ export const planosSaude: { [key: string]: PlanosSaude } = {
     name: "Hapvida",
     logo: "assets/logos/hapvida.jpg",
     logoAlt: "Logo Hapvida",
-    description: "Rede especializada em saúde com atendimento eficiente e moderno.",
+    description: "Rede especializada em saúde com atendimento eficiente e moderno",
     images: [
       "assets/images/hapvida-plan-1.jpg",
       "assets/images/hapvida-plan-2.jpg"
@@ -47,7 +47,7 @@ export const planosSaude: { [key: string]: PlanosSaude } = {
     name: "MedSenior",
     logo: "assets/logos/medsenior.jpg",
     logoAlt: "Logo MedSenior",
-    description: "Focado no público idoso, oferecendo assistência médica dedicada.",
+    description: "Focado no público idoso, oferecendo assistência médica dedicada",
     images: [
       "assets/images/medsenior-plan-1.jpg",
       "assets/images/medsenior-plan-2.jpg"
@@ -58,7 +58,7 @@ export const planosSaude: { [key: string]: PlanosSaude } = {
     name: "Golden Cross",
     logo: "assets/logos/goldencross.jpg",
     logoAlt: "Logo Golden Cross",
-    description: "Plano com benefícios exclusivos e atendimento premium.",
+    description: "Plano com benefícios exclusivos e atendimento premium",
     images: [
       "assets/images/goldencross-plan-1.jpg",
       "assets/images/goldencross-plan-2.jpg"
@@ -69,12 +69,12 @@ export const planosSaude: { [key: string]: PlanosSaude } = {
     name: "Amil",
     logo: "assets/logos/amil.jpg",
     logoAlt: "Logo Amil",
-    description: "Cobertura extensa com hospitais e clínicas espalhadas por todo o Brasil.",
+    description: "Oferecemos planos médicos e odontológicos com todo o cuidado que você, sua família ou sua empresa precisam",
     images: [
       "assets/images/amil-plan-1.jpg",
       "assets/images/amil-plan-2.jpg"
     ],
-    tinyName: "Amil"
+    tinyName: "amil"
   },
   sulamerica: {
     name: "SulAmérica",

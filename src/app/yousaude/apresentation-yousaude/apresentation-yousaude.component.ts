@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, ViewEncapsulation } from '@angular/core';
 import { planosSaude } from '../../env/envName';
 
 @Component({
@@ -10,5 +10,4 @@ import { planosSaude } from '../../env/envName';
 })
 export class ApresentationYousaudeComponent {
   yousaudeData = planosSaude['yousaude'];
-
 }

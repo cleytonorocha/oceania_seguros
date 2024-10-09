@@ -1,0 +1,63 @@
+:host{
+    .history-section {
+        background: rgb(6,129,104);
+        background: -moz-linear-gradient(45deg, rgba(6,129,104,1) 0%, rgba(0,105,95,1) 25%, rgba(0,77,85,1) 50%, rgba(0,58,65,1) 75%, rgba(0,44,50,1) 100%);
+        background: -webkit-linear-gradient(45deg, rgba(6,129,104,1) 0%, rgba(0,105,95,1) 25%, rgba(0,77,85,1) 50%, rgba(0,58,65,1) 75%, rgba(0,44,50,1) 100%);
+        background: linear-gradient(45deg, rgba(6,129,104,1) 0%, rgba(0,105,95,1) 25%, rgba(0,77,85,1) 50%, rgba(0,58,65,1) 75%, rgba(0,44,50,1) 100%);
+        padding: 60px 0;
+        color: white;
+    }
+    
+    .history-section h2, .history-section h3 {
+        font-size: 2.5rem;
+        font-weight: bold;
+        color: #ffffff;
+    }
+    
+    .history-section p, .history-section li {
+        font-size: 1.2rem;
+        line-height: 1.8;
+        color: #f1f1f1;
+    }
+    
+    .history-section ul {
+        list-style-type: none;
+        padding: 0;
+    }
+    
+    .history-section ul li {
+        margin-bottom: 1em;
+        position: relative;
+        padding-left: 1.5em;
+    }
+    
+    .history-section ul li:before {
+        content: "✔";
+        color: #0ed69e;
+        position: absolute;
+        left: 0;
+        font-size: 1.5rem;
+    }
+    
+    .history-section .img-fluid {
+        max-width: 100%;
+        height: auto;
+        border-radius: 10px;
+    }
+    
+    .history-section .shadow-lg {
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    }
+    .cardBeneficios{
+        background: rgba(6, 124, 99, 0.66)
+    }
+    .hoverable-div {
+        width: 100%;
+        padding: 20px;
+        border-radius: 10px;
+        transition: background-color 0.3s, transform 0.3s;
+    }
+    .hover-effect {
+        transform: scale(1.05);
+    }
+}
