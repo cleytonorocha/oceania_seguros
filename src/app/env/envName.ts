@@ -25,7 +25,7 @@ export const planosSaude: { [key: string]: PlanosSaude } = {
     name: "NotreDame",
     logo: "assets/logos/notredame.jpg",
     logoAlt: "Logo NotreDame",
-    description: "Plano com acesso a hospitais de alto padrão e profissionais renomados.",
+    description: "Seu bem-estar em primeiro lugar. Invista na sua saúde e no bem-estar da sua família com o plano de saúde Notrelife",
     images: [
       "assets/images/notredame-plan-1.jpg",
       "assets/images/notredame-plan-2.jpg"
