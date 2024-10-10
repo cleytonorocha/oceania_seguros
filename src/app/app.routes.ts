@@ -6,6 +6,7 @@ import amilRoutes from './amil/amil.routes';
 import notredameRoutes from './notredame/notredame.routes';
 import HapvidaComponent from './hapvida/hapvida.component';
 import hapvidaRoutes from './hapvida/hapvida.routes';
+import medseniorRoutes from './medsenior/medsenior.routes';
 
 const home = "Oceania Seguros"
 export const routes: Routes = [
@@ -14,5 +15,6 @@ export const routes: Routes = [
     yousaudeRoutes(home),
     amilRoutes(home),
     notredameRoutes(home),
-    hapvidaRoutes(home)
+    hapvidaRoutes(home),
+    medseniorRoutes(home)
 ];
