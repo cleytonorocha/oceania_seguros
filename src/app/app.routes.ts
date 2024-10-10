@@ -8,6 +8,7 @@ import HapvidaComponent from './hapvida/hapvida.component';
 import hapvidaRoutes from './hapvida/hapvida.routes';
 import medseniorRoutes from './medsenior/medsenior.routes';
 import sulamericaRoutes from './sulamerica/sulamerica.routes';
+import unimedRoutes from './unimed/unimed.routes';
 
 const home = "Oceania Seguros"
 export const routes: Routes = [
@@ -18,5 +19,6 @@ export const routes: Routes = [
     notredameRoutes(home),
     hapvidaRoutes(home),
     medseniorRoutes(home),
-    sulamericaRoutes(home)
+    sulamericaRoutes(home),
+    unimedRoutes(home)
 ];
