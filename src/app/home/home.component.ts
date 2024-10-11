@@ -4,6 +4,7 @@ import { ApresentacaoComponent } from './apresentacao/apresentacao.component';
 import { PlansComponent } from './plans/plans.component';
 import { CardsComponent } from './cards/cards.component';
 import { FooterComponent } from '../footer/footer.component';
+import { PromocaoHomeComponent } from './promocao-home/promocao-home.component';
 
 @Component({
   selector: 'app-home',
@@ -11,6 +12,7 @@ import { FooterComponent } from '../footer/footer.component';
   imports: [
     NavbarComponent,
     ApresentacaoComponent,
+    PromocaoHomeComponent,
     PlansComponent,
     CardsComponent,
     FooterComponent

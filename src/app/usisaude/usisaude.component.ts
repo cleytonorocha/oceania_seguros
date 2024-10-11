@@ -3,6 +3,7 @@ import { NavbarComponent } from '../navbar/navbar.component';
 import { FooterComponent } from '../footer/footer.component';
 import { ApresentationUnisaudeComponent } from './apresentation-usisaude/apresentation-usisaude.component';
 import { SaibamaisUsisaudeComponent } from './saibamais-usisaude/saibamais-usisaude.component';
+import { PromocaoUsisaudeComponent } from './promocao-usisaude/promocao-usisaude.component';
 
 @Component({
   selector: 'app-usisaude',
@@ -10,6 +11,7 @@ import { SaibamaisUsisaudeComponent } from './saibamais-usisaude/saibamais-usisa
   imports: [
     NavbarComponent,
     ApresentationUnisaudeComponent,
+    PromocaoUsisaudeComponent,
     SaibamaisUsisaudeComponent,
     FooterComponent
   ],

@@ -1,0 +1,62 @@
+:host{
+    .topContent {
+        background-color: #f8f9fa; 
+        overflow: hidden;
+    }
+    
+    .ribbon {
+        position: absolute;
+        top: 20px;
+        right: -30px;
+        background: #ff4757; 
+        color: white;
+        padding: 10px 20px;
+        font-weight: bold;
+        border-radius: 5px;
+        transform: rotate(45deg);
+        z-index: 10;
+    }
+    
+    button {
+        transition: background-color 0.3s ease, transform 0.2s ease;
+    }
+    
+    button:hover {
+        transform: translateY(-3px);
+    }
+    
+    .btn-primary {
+        background-color: #007bff; 
+    }
+    
+    .btn-light {
+        background-color: #ffffff; 
+        color: #28a745;
+    }
+    
+    .text-warning {
+        animation: blink 1.5s infinite alternate;
+    }
+    
+    @keyframes blink {
+        0% { opacity: 1; }
+        100% { opacity: 0.5; }
+    }
+    
+    ul.list-unstyled {
+        list-style: none;
+        padding: 0;
+    }
+    
+    ul.list-unstyled li {
+        font-size: 1.2rem;
+        margin: 10px 0;
+    }
+    @media (max-width: 767.98px) {
+        section{
+            margin-top: 28vh;
+            margin-bottom: 28vh;
+        }
+        
+    }
+}

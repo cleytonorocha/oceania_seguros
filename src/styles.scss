@@ -3,6 +3,13 @@ html, body{
     font-family: 'Inter', sans-serif !important;
 }
 
+.oceaniaBackground{
+    background: rgb(6,129,104);
+    background: -moz-linear-gradient(45deg, rgba(6,129,104,1) 0%, rgba(0,105,95,1) 25%, rgba(0,77,85,1) 50%, rgba(0,58,65,1) 75%, rgba(0,44,50,1) 100%);
+    background: -webkit-linear-gradient(45deg, rgba(6,129,104,1) 0%, rgba(0,105,95,1) 25%, rgba(0,77,85,1) 50%, rgba(0,58,65,1) 75%, rgba(0,44,50,1) 100%);
+    background: linear-gradient(45deg, rgba(6,129,104,1) 0%, rgba(0,105,95,1) 25%, rgba(0,77,85,1) 50%, rgba(0,58,65,1) 75%, rgba(0,44,50,1) 100%);
+}
+
 .topContent{
     margin-top: 7.5vh;
 }

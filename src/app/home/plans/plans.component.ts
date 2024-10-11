@@ -86,7 +86,7 @@ export class PlansComponent {
     },
     {
       title: "Med Senior",
-      imagePath: "assets/logos/madsenior.jpg",
+      imagePath: "assets/logos/medsenior.jpg",
       alt: "Logo da MedSenior",
       link: ''
     },

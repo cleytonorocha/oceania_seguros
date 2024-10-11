@@ -1,0 +1,12 @@
+:host {
+    .hoverable-div {
+        padding: 20px;
+        background-color: #13909d;
+        border-radius: 10px;
+        transition: background-color 0.3s, transform 0.3s;
+    }
+
+    .hover-effect {
+        transform: scale(1.05);
+    }
+}
