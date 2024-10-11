@@ -92,4 +92,11 @@
             transform: translateX(-40px) translateY(15px);
         }
     }
+
+    @media (max-width: 900px) {
+        .logos {
+            height: 100px;
+            width: 100px;
+        }
+    }
 }
