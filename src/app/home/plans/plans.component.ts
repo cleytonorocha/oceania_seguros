@@ -1,11 +1,13 @@
 import { NgClass } from '@angular/common';
 import { Component } from '@angular/core';
+import { RouterLink } from '@angular/router';
 
 @Component({
   selector: 'app-plans',
   standalone: true,
   imports: [
-    NgClass
+    NgClass,
+    RouterLink
   ],
   templateUrl: './plans.component.html',
   styleUrl: './plans.component.scss'
@@ -64,49 +66,49 @@ export class PlansComponent {
       title: "Usi Saúde",
       imagePath: "assets/logos/usisaude.jpg",
       alt: "Logo da Usisaúde",
-      link: ''
+      link: '/usisaude'
     },
     {
       title: "You Saúde",
       imagePath: "assets/logos/yousaude.jpg",
       alt: "Logo da You Saúde",
-      link: ''
+      link: '/yousaude'
     },
     {
       title: "Notre Dame",
       imagePath: "assets/logos/notredame.jpg",
       alt: "Logo da NotreDame",
-      link: ''
+      link: '/notredame'
     },
     {
       title: "Hapvida",
       imagePath: "assets/logos/hapvida.jpg",
       alt: "Logo da Hapvida",
-      link: ''
+      link: '/hapvida'
     },
     {
       title: "Med Senior",
       imagePath: "assets/logos/medsenior.jpg",
       alt: "Logo da MedSenior",
-      link: ''
+      link: '/medsenior'
     },
     {
       title: "Amil",
       imagePath: "assets/logos/amil.jpg",
       alt: "Logo da Amil",
-      link: ''
+      link: '/amil'
     },
     {
       title: "Sul América",
       imagePath: "assets/logos/sulamerica.jpg",
       alt: "Logo da SulAmérica",
-      link: ''
+      link: '/sulamerica'
     },
     {
       title: "Unimed",
       imagePath: "assets/logos/unimed.jpg",
       alt: "Logo da Unimed Belo Horizonte",
-      link: ''
+      link: '/unimed'
     }
   ];
 

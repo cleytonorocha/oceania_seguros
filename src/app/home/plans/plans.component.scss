@@ -31,7 +31,7 @@
         filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#0ed69e", endColorstr="#13909d", GradientType=1);
         height: 100%;
         padding: 20px;
-        border-radius: 10px 0 0 10px;
+        color: white;
     }
 
     #wave1 {
@@ -58,9 +58,7 @@
     }
 
     .logos {
-        height: 200px;
-        width: 200px;
-        object-fit: contain;
+        height: 17vh;
     }
 
     @keyframes movewave1 {
@@ -71,6 +69,7 @@
         100% {
             transform: translateX(-50px) translateY(10px);
         }
+
     }
 
     @keyframes movewave2 {
@@ -93,10 +92,10 @@
         }
     }
 
-    @media (max-width: 900px) {
+    @media (max-width:800px) {
         .logos {
-            height: 100px;
-            width: 90px;
+            height: 24vh !important;
+            width: 100%;
         }
     }
 }

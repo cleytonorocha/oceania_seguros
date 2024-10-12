@@ -1,22 +1,29 @@
 <section class="container-fluid bg-light">
     <div class="container">
         <div class="row">
-            <div class="card shadow-lg border-0 p-5 mt-5 mb-4">
+            <div class="card shadow-lg border-0 px-3 px-md-5 py-5 mt-4 mt-lg-5 mb-4">
                 <div class="row align-items-center">
                     <div class="col-12 col-md-6 text-center text-md-start mb-4 mb-md-0">
-                        <h1 class="display-3 fw-bold text-primary mb-3">Planos a partir de</h1>
-                        <h2 class="display-4 text-success mb-4">R$ 399,00</h2>
-                        <p class="lead">Consulte agora e descubra o melhor plano para você!</p>
-                        <button class="btn btn-lg btn-primary px-5 py-3 mt-3 mb-3">
-                            <span class="fw-bold fs-2 text-uppercase">Consulte Agora</span>
-                        </button>
+                        <h1 class="display-3  fw-bold text-uppercase text-primary mb-1">Planos de Saúde</h1>
+                        <p class="text-success fw-semibold mb-1 mb-md-0 ">A partir de</p>
+                        <h2 class="display-4 text-success mb-4 fw-medium">R$ 399,00</h2>
+                        <p class="fs-5 fs-sm-2">Consulte agora e descubra o melhor plano para você!</p>
+                        <a href="https://api.whatsapp.com/send?phone=553199011452&text=Ol%C3%A1%20tudo%20bem?%20Cheguei%20aqui%20pelo%20site%20e%20gostaria%20de%20tirar%20algumas%20d%C3%BAvidas."
+                            target="_blank">
+                            <button class="btn btn-lg btn-primary px-md-5 py-3 mt-md-3 mb-3">
+                                <span class="fw-bold fs-2 text-uppercase">Consulte Agora!</span>
+                            </button>
+                        </a>
                     </div>
                     <div class="col-12 col-md-6 d-flex flex-wrap justify-content-center align-items-center">
                         <div class="row w-100">
                             @for (logo of logos; track $index) {
                             <div class="col-6 col-md-4 col-lg-3 d-flex justify-content-center align-items-center mb-3">
-                                <a [routerLink]="logo.name" (mouseover)="hoveredIndex = $index" (mouseleave)="hoveredIndex = null"
-                                [ngClass]="{'hover-effect': hoveredIndex === $index}"><img [src]="logo.src" [alt]="logo.alt" class="img-fluid" style="max-width: 100px;" /></a>
+                                <a [routerLink]="logo.name" (mouseover)="hoveredIndex = $index"
+                                    (mouseleave)="hoveredIndex = null"
+                                    [ngClass]="{'hover-effect': hoveredIndex === $index}">
+                                    <img [src]="logo.src" [alt]="logo.alt" class="img-fluid" />
+                                </a>
                             </div>
                             }
                         </div>
