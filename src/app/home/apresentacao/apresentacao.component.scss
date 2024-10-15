@@ -1,56 +1,38 @@
 :host {
-    img {
-        height: 60vh;
-        width: 100%;
+    .hoverable-div {
+        padding: 20px;
+        background-color: #13909d;
+        border-radius: 10px;
+        transition: background-color 0.3s, transform 0.3s;
     }
-    
-    .marquee-section {
-        margin-top: 0.5vw;
-        margin-bottom: 1vw;
+
+    .hover-effect {
+        transform: scale(1.05);
+    }
+
+    #apresentacao {
         position: relative;
-        min-height: 30px;
+        width: 100%;
+        background: url('../../../assets/usisaude/image1.jpg') no-repeat top center;
+        background-color: #004a7c;
+        min-height: 90vh;
+        background-size: cover;
+        margin-top: 0;
     }
-    
-    .marquee-section,
-    .marquee-section * {
-        overflow: hidden;
-    }
-    
-    .marquee {
-        white-space: nowrap;
-    }
-    
-    .marquee-div {
+
+    #apresentacao::before {
+        content: "";
         position: absolute;
-        animation: move-right-to-left linear 60s infinite;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.579);
+        z-index: 1;
     }
-    
-    .passagem {
-        font-size: 1.2vw;
-        font-family: 'Libre Baskerville', serif;
-        text-decoration: underline;
-    }
-    
-    @keyframes move-right-to-left {
-        from {
-            transform: translateX(0);
-        }
-        to {
-            transform: translateX(-50%);
-        }
-    }
-    
-    @media (max-width: 1250px) {
-        img {
-            height: auto;
-        }
-    }
-    @media (min-width: 2100px) {
-        .marquee-section {
-            min-height: 4em;
-        }
-        .passagem {
-            font-size: 3em;
-        }
+
+    #apresentacao>* {
+        position: relative;
+        z-index: 2;
     }
 }

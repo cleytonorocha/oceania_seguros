@@ -1,5 +1,5 @@
 :host {
-    section {
+    #saibamais-notredame {
         position: relative;
         width: 100%;
         background-color: #004a7c;
@@ -7,7 +7,7 @@
         background-size: cover;
     }
 
-    section::before {
+    #saibamais-notredame::before {
         content: "";
         position: absolute;
         top: 0;
@@ -18,7 +18,7 @@
         z-index: 1;
     }
 
-    section>* {
+    #saibamais-notredame>* {
         position: relative;
         z-index: 2;
     }

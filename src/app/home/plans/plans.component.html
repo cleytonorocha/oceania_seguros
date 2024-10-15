@@ -1,4 +1,4 @@
-<section>
+<section id="plans-section">
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 300">
         <path fill="#10314dff" fill-opacity="1" id="wave1"
             d="M0,32L60,29.3C120,27,240,21,360,32C480,43,600,69,720,72C840,75,960,53,1080,45.3C1200,37,1320,43,1380,45.3L1440,48L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z">
@@ -60,7 +60,7 @@
                     (mouseover)="hoveredIndex = $index" (mouseleave)="hoveredIndex = null"
                     [ngClass]="{'hover-effect': hoveredIndex === $index}">
                     <div class="logos h-100 w-100 p-3">
-                        <img [src]="item.imagePath" class="img-fluid rounded-circle bg-white shadow h-100 w-100" [alt]="item.alt">
+                        <img [src]="item.imagePath" class="img-fluid rounded-circle bg-white shadow h-100 w-100" [alt]="item.alt" loading="lazy">
                     </div>
                     <h5 class="fs-3 mt-2">{{item.title}}</h5>
                     <button type="button" class="fs-4 btn btn-info btn-lg mt-2 rounded text-white fw-medium" [routerLink]="item.link">Saiba Mais!</button>

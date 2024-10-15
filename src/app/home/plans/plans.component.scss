@@ -1,5 +1,5 @@
 :host {
-    section {
+    #plans-section {
         width: 100%;
         overflow: hidden;
     }
@@ -13,7 +13,6 @@
     svg {
         width: 100%;
         height: auto;
-        display: block;
         margin: 0;
         padding: 0;
         overflow: hidden;
@@ -35,11 +34,11 @@
     }
 
     #wave1 {
-        animation: movewave1 10s ease-in-out infinite alternate;
+        animation: movewave1 5s ease-in-out infinite alternate;
     }
 
     #wave2 {
-        animation: movewave2 8s ease-in-out infinite alternate-reverse;
+        animation: movewave2 4s ease-in-out infinite alternate-reverse;
     }
 
     #wave3 {
