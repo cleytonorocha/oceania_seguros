@@ -4,7 +4,7 @@
         width: 100%;
         background-color: #004a7c; 
         min-height: 70vh;
-        background-size: cover;
+        background-size: 100% !important;
     }
     #apresentation-hapvida::before {
         content: "";
@@ -20,5 +20,11 @@
     #apresentation-hapvida > * {
         position: relative;
         z-index: 2;
+    }
+    @media (max-width: 1032px) {
+        #apresentation-hapvida {
+            background-size: cover !important;
+            background-position: center center !important;
+        }
     }
 }

@@ -1,13 +1,13 @@
 :host {
-    section {
+    #apresentation-unimed {
         position: relative;
         width: 100%;
         background-color: #004a7c;
         min-height: 70vh;
-        background-size: cover;
+        background-size: 100% !important;
     }
 
-    section::before {
+    #apresentation-unimed::before {
         content: "";
         position: absolute;
         top: 0;
@@ -18,8 +18,15 @@
         z-index: 1;
     }
 
-    section>* {
+    #apresentation-unimed>* {
         position: relative;
         z-index: 2;
+    }
+
+    @media (max-width: 1652px) {
+        #apresentation-unimed {
+            background-size: cover !important;
+            background-position: center center !important;
+        }
     }
 }

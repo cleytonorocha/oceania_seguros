@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { RouterLink, RouterLinkActive } from '@angular/router';
+import { planosSaude } from '../env/envName';
 
 @Component({
   selector: 'app-navbar',
@@ -12,5 +13,6 @@ import { RouterLink, RouterLinkActive } from '@angular/router';
   styleUrl: './navbar.component.scss'
 })
 export class NavbarComponent {
+  planos: any[] = Object.values(planosSaude);
 
 }

@@ -54,17 +54,6 @@ export const planosSaude: { [key: string]: PlanosSaude } = {
     ],
     tinyName: "medsenior"
   },
-  goldencross: {
-    name: "Golden Cross",
-    logo: "assets/logos/goldencross.jpg",
-    logoAlt: "Logo Golden Cross",
-    description: "Plano com benefícios exclusivos e atendimento premium",
-    images: [
-      "assets/images/goldencross-plan-1.jpg",
-      "assets/images/goldencross-plan-2.jpg"
-    ],
-    tinyName: "goldencross"
-  },
   amil: {
     name: "Amil",
     logo: "assets/logos/amil.jpg",

@@ -1,13 +1,13 @@
 :host {
-    section {
+    #apresentation-sulamerica {
         position: relative;
         width: 100%;
         background-color: #004a7c;
         min-height: 70vh;
-        background-size: cover;
+        background-size: cover !important;
     }
 
-    section::before {
+    #apresentation-sulamerica::before {
         content: "";
         position: absolute;
         top: 0;
@@ -18,8 +18,9 @@
         z-index: 1;
     }
 
-    section>* {
+    #apresentation-sulamerica>* {
         position: relative;
         z-index: 2;
     }
+
 }

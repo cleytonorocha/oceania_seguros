@@ -28,23 +28,11 @@
     </button>
 
     <div class="collapse navbar-collapse" id="navItems">
-      <div class="d-flex flex-column flex-xl-row justify-content-center align-items-center w-100 gap-3">
-        <button type="button" class="btn rounded-0 btn-animation fs-7" routerLink="/usisaude"
-          routerLinkActive="activeHostButton">Usisaúde</button>
-        <button type="button" class="btn rounded-0 btn-animation fs-7" routerLink="/yousaude"
-          routerLinkActive="activeHostButton">You Saúde</button>
-        <button type="button" class="btn rounded-0 btn-animation fs-7" routerLink="/notredame"
-          routerLinkActive="activeHostButton">NotreDame</button>
-        <button type="button" class="btn rounded-0 btn-animation fs-7" routerLink="/hapvida"
-          routerLinkActive="activeHostButton">Hapvida</button>
-        <button type="button" class="btn rounded-0 btn-animation fs-7" routerLink="/medsenior"
-          routerLinkActive="activeHostButton">MedSenior</button>
-        <button type="button" class="btn rounded-0 btn-animation fs-7" routerLink="/amil"
-          routerLinkActive="activeHostButton">Amil</button>
-        <button type="button" class="btn rounded-0 btn-animation fs-7" routerLink="/sulamerica"
-          routerLinkActive="activeHostButton">SulAmérica</button>
-        <button type="button" class="btn rounded-0 btn-animation fs-7" routerLink="/unimed"
-          routerLinkActive="activeHostButton">Unimed</button>
+      <div class="d-flex flex-column flex-xl-row justify-content-center align-items-center w-100 ">
+        @for (plano of planos; track $index) {
+          <button type="button" class="btn rounded-0 btn-animation fs-7 " [routerLink]="'/'+plano.tinyName"
+            routerLinkActive="activeHostButton">{{ plano.name }}</button>
+        }
       </div>
     </div>
   </div>

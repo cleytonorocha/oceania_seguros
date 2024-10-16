@@ -4,7 +4,7 @@
         width: 100%;
         background-color: #004a7c;
         min-height: 70vh;
-        background-size: cover;
+        background-size: 100% !important;
     }
 
     #saibamais-notredame::before {
@@ -21,5 +21,12 @@
     #saibamais-notredame>* {
         position: relative;
         z-index: 2;
+    }
+
+    @media (max-width: 1032px) {
+        #saibamais-notredame {
+            background-size: cover !important;
+            background-position: center center !important;
+        }
     }
 }

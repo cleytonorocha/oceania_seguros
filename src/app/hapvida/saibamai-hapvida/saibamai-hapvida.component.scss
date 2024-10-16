@@ -1,36 +1,38 @@
-:host{
+:host {
     #saibamais-hapvida {
-        background: rgb(6,129,104);
-        background: -moz-linear-gradient(45deg, rgba(6,129,104,1) 0%, rgba(0,105,95,1) 25%, rgba(0,77,85,1) 50%, rgba(0,58,65,1) 75%, rgba(0,44,50,1) 100%);
-        background: -webkit-linear-gradient(45deg, rgba(6,129,104,1) 0%, rgba(0,105,95,1) 25%, rgba(0,77,85,1) 50%, rgba(0,58,65,1) 75%, rgba(0,44,50,1) 100%);
-        background: linear-gradient(45deg, rgba(6,129,104,1) 0%, rgba(0,105,95,1) 25%, rgba(0,77,85,1) 50%, rgba(0,58,65,1) 75%, rgba(0,44,50,1) 100%);
+        background: rgb(6, 129, 104);
+        background: -moz-linear-gradient(45deg, rgba(6, 129, 104, 1) 0%, rgba(0, 105, 95, 1) 25%, rgba(0, 77, 85, 1) 50%, rgba(0, 58, 65, 1) 75%, rgba(0, 44, 50, 1) 100%);
+        background: -webkit-linear-gradient(45deg, rgba(6, 129, 104, 1) 0%, rgba(0, 105, 95, 1) 25%, rgba(0, 77, 85, 1) 50%, rgba(0, 58, 65, 1) 75%, rgba(0, 44, 50, 1) 100%);
+        background: linear-gradient(45deg, rgba(6, 129, 104, 1) 0%, rgba(0, 105, 95, 1) 25%, rgba(0, 77, 85, 1) 50%, rgba(0, 58, 65, 1) 75%, rgba(0, 44, 50, 1) 100%);
         padding: 60px 0;
         color: white;
     }
-    
-    #saibamais-hapvida h2, #saibamais-hapvida h3 {
+
+    #saibamais-hapvida h2,
+    #saibamais-hapvida h3 {
         font-size: 2.5rem;
         font-weight: bold;
         color: #ffffff;
     }
-    
-    #saibamais-hapvida p, #saibamais-hapvida li {
+
+    #saibamais-hapvida p,
+    #saibamais-hapvida li {
         font-size: 1.2rem;
         line-height: 1.8;
         color: #f1f1f1;
     }
-    
+
     #saibamais-hapvida ul {
         list-style-type: none;
         padding: 0;
     }
-    
+
     #saibamais-hapvida ul li {
         margin-bottom: 1em;
         position: relative;
         padding-left: 1.5em;
     }
-    
+
     #saibamais-hapvida ul li:before {
         content: "✔";
         color: #0ed69e;
@@ -38,15 +40,15 @@
         left: 0;
         font-size: 1.5rem;
     }
-    
+
     #saibamais-hapvida .img-fluid {
         max-width: 100%;
         height: auto;
         border-radius: 10px;
     }
-    
+
     #saibamais-hapvida .shadow-lg {
         box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
     }
-    
+
 }
